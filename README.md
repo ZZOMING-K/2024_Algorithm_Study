@@ -75,10 +75,10 @@ ex) [2024-04-25] minkyeong [#1](https://github.com/ZZOMING-K/2024_Algorithm_Stud
 
 
 ## Collaborator
-|조민경|이기찬|백봉운|
-|:------:|:------:|:------:|
-|<a href="https://github.com/ZZOMING-K"><img src="https://avatars.githubusercontent.com/ZZOMING-K" width=150px>|<a href="https://github.com/nahcikeel"> <img src="https://avatars.githubusercontent.com/nahcikeel" width=150px>|<a href="https://github.com/back7153"><img src="https://avatars.githubusercontent.com/back7153" width=150px>|
-|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={alsrud5527})](https://solved.ac/{alsrud5527})|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |
+|조민경|이기찬|백봉운|조현지|최승아|김민규
+|:------:|:------:|:------:|:------:|:------:|:------:|
+|<a href="https://github.com/ZZOMING-K"><img src="https://avatars.githubusercontent.com/ZZOMING-K" width=150px>|<a href="https://github.com/nahcikeel"> <img src="https://avatars.githubusercontent.com/nahcikeel" width=150px>|<a href="https://github.com/back7153"><img src="https://avatars.githubusercontent.com/back7153" width=150px>|<a href="https://github.com/chohj345677"><img src="https://avatars.githubusercontent.com/chohj345677" width=150px>|<a href="https://github.com/zuzizzuziz1"><img src="https://avatars.githubusercontent.com/zuzizzuziz1" width=150px>|<a href="https://github.com/xxxmingyu"><img src="https://avatars.githubusercontent.com/xxxmingyu" width=150px>|
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={alsrud5527})](https://solved.ac/{alsrud5527})|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |
 </br>
 
 
