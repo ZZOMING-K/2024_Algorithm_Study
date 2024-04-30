@@ -27,17 +27,15 @@
 ex) [week0-백준-그리디]
 
 
-#### Commit | `커밋내용 공통문제 파일명.py` 
-ex) create 공통(추가)문제 문제제목.py 
+#### Commit | `커밋내용 공통문제 해당주차` 
+ex) create 공통(추가)문제 week1 
 
 * 선정된 문제 → 공통문제 
 * 개인이 개별적으로 풀어본 문제 → 추가문제 
-* 파일 작성 시 → 문제번호 문제제목 작성 
-    * ex) `1047_x보다 작은 수.py`
 
 
-#### PR | `[날짜] 이름 #이슈번호` 
-ex) [2024-04-25] minkyeong [#1](https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/1)
+#### PR | `[날짜] 이름 해당주차` 
+ex) [2024-04-25] minkyeong week1
 
 **PR시 본인의 코드를 설명해주세요.** 
 * 적용 알고리즘 간단하게 설명
@@ -75,7 +73,7 @@ ex) [2024-04-25] minkyeong [#1](https://github.com/ZZOMING-K/2024_Algorithm_Stud
 |조민경|이기찬|백봉운|조현지|최승아|김민규
 |:------:|:------:|:------:|:------:|:------:|:------:|
 |<a href="https://github.com/ZZOMING-K"><img src="https://avatars.githubusercontent.com/ZZOMING-K" width=150px>|<a href="https://github.com/nahcikeel"> <img src="https://avatars.githubusercontent.com/nahcikeel" width=150px>|<a href="https://github.com/back7153"><img src="https://avatars.githubusercontent.com/back7153" width=150px>|<a href="https://github.com/chohj345677"><img src="https://avatars.githubusercontent.com/chohj345677" width=150px>|<a href="https://github.com/zuzizzuziz1"><img src="https://avatars.githubusercontent.com/zuzizzuziz1" width=150px>|<a href="https://github.com/xxxmingyu"><img src="https://avatars.githubusercontent.com/xxxmingyu" width=150px>|
-|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={alsrud5527})](https://solved.ac/{alsrud5527})|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |
+|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj=alsrud5527)](https://solved.ac/alsrud5527)|[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |[![Solved.ac프로필](http://mazassumnida.wtf/api/mini/generate_badge?boj={handle})](https://solved.ac/{handle}) |
 </br>
 
 
