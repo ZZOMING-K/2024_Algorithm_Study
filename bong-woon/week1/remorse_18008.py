@@ -8,8 +8,12 @@ morse = {
 # 입력
 s = input()
 
-# 공백 제거
+# 공백 및 특수문자 제거
 s = s.replace(' ', '')
+s = s.replace(',', '')
+s = s.replace('.', '')
+s = s.replace('"', '')
+s = s.replace("'", '')
 
 # 대소문자 구분이 없으므로 모두 대문자로 변환
 s = s.upper()
