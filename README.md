@@ -54,15 +54,15 @@ ex) [2024-04-25] minkyeong week1
 ## 커리큘럼
 * 개념 (7~8주) + 이후 문제풀이로 꾸준히
   
-|주차|유형|
-|------|---|
-|week1|그리디,구현|
-|week2|DFS & BFS|
-|week3|이진탐색,스택과큐|
-|week4|정렬|
-|week5|동적계획법,최단경로|
-|week6|그래프|
-|week7|트리|
+|주차|유형|문제|
+|------|---|---|
+|week1|그리디,구현|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/11#issue-2284671765|
+|week2|DFS & BFS|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/20#issue-2284671765|
+|week3|이진탐색,스택과큐||
+|week4|정렬||
+|week5|동적계획법,최단경로||
+|week6|그래프||
+|week7|트리||
 
 추후 변경될 수 있습니다. 
 
