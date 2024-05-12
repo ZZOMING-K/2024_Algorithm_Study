@@ -2,6 +2,8 @@
 #R, G를 같은 색으로 보기도 해야 함
 #R을 찾다가 G가 나온경우 G의 위치를 따로 저장하여 색약인 경우를 구현해보자
 from collections import deque
+import sys
+input = sys.stdin.readline
 
 dy = [-1, 1, 0, 0]
 dx = [0, 0, -1, 1]
@@ -28,11 +30,10 @@ colorQue.append(painting[0][0])
 
 cnt = 0
 
-while lue or redGreen or coordQue:
+while blue or redGreen or coordQue:
 
     if coordQue:
-        y, x = map(int, coordQue
-    .popleft())
+        y, x = map(int, coordQue.popleft())
         now = colorQue.popleft()
         if isVisited[y][x]:
             continue
@@ -40,7 +41,7 @@ while lue or redGreen or coordQue:
             isVisited[y][x] = True
 
     elif redGreen:
-        temp = redGren.pop()
+        temp = redGreen.pop()
         if isVisited[temp[0]][temp[1]]:
             continue
         answer1 = answer1 + 1
@@ -52,7 +53,7 @@ while lue or redGreen or coordQue:
         temp = blue.pop()
         if isVisited[temp[0]][temp[1]]:
             continue
-        answer = answer1 + 1
+        answer1 = answer1 + 1
         answer2 = answer2 + 1
         coordQue.append([temp[0], temp[1]])
         colorQue.append(temp[2])
@@ -61,7 +62,7 @@ while lue or redGreen or coordQue:
     for i in range(4):
         if isValid(y+dy[i], x+dx[i], N):
             if painting[y+dy[i]][x+dx[i]] == now:
-                coordQue.apend([y+dy[i], x+dx[i]])
+                coordQue.append([y+dy[i], x+dx[i]])
                 colorQue.append(now)
                 
             elif painting[y+dy[i]][x+dx[i]] != now:
@@ -69,5 +70,5 @@ while lue or redGreen or coordQue:
                     redGreen.append([y+dy[i], x+dx[i], painting[y+dy[i]][x+dx[i]]])
                 elif now == 'B' or painting[y+dy[i]][x+dx[i]] == 'B':
                     blue.append([y+dy[i], x+dx[i], painting[y+dy[i]][x+dx[i]]])
-                 
+                    
 print(answer1, answer2)
