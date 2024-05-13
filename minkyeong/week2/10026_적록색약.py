@@ -38,10 +38,10 @@ def count_color(graph):
     
     return count
 
-# 일반적인 경우의 구역 수 계산
+
 normal = count_color(graph)
 print(normal) 
 
-graph = [['R' if cell == 'G' else cell for cell in row] for row in graph]
-abnoraml = count_color(graph) 
-print(abnoraml)
+graph = [['R' if color == 'G' else color for color in row] for row in graph]
+color_blind = count_color(graph) 
+print(color_blind)
