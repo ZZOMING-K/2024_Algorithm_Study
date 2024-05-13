@@ -59,7 +59,7 @@ ex) [2024-04-25] minkyeong week1
 |------|---|---|
 |week1|그리디,구현|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/11#issue-2284671765|
 |week2|DFS & BFS|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/20#issue-2284671765|
-|week3|이진탐색,스택과큐||
+|week3|이진탐색,스택과큐|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/28|
 |week4|정렬||
 |week5|동적계획법,최단경로||
 |week6|그래프||
