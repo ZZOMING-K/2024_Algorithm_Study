@@ -18,7 +18,7 @@ def place(distance) :
             if count == C : #범위 내 공유기를 다 설치가능한 경우 True 반환 
                 return True 
     
-    return False  #
+    return False  #위의 조건을 만족하지 않을 경우 False반환 
 
 while min_len <= max_len : 
     mid = (min_len + max_len) // 2 #최대 길이를 이분탐색으로 찾기  
