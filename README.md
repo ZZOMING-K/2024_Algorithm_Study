@@ -37,11 +37,12 @@ ex) create 공통(추가)문제 week1
 #### PR | `[날짜] 이름 해당주차` 
 ex) [2024-04-25] minkyeong week1
 
-**PR시 본인의 코드를 설명해주세요.** 
+**본인의 코드를 설명해주세요.** 
 * 적용 알고리즘 간단하게 설명
 * 문제 풀이를 위한 접근방식 설명
 * 추가적으로 개선한 코드에 대한 설명
-* 사용한 라이브러리 정리 및 기타 (문제 풀이에 어려웠던 점, 구현하고자 했는데 실패한 방식) 
+* 사용한 라이브러리 정리 및 기타 (문제 풀이에 어려웠던 점, 구현하고자 했는데 실패한 방식)
+* readme 파일 생성 or txt 파일 생성 등 방식에 제한은 없습니다. 
 
 #### Comment 작성 (코드리뷰) | `의견제시` 
 * 잘했다고 생각되는 부분 
@@ -56,9 +57,9 @@ ex) [2024-04-25] minkyeong week1
   
 |주차|유형|문제|
 |------|---|---|
-|week1|그리디,구현|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/11#issue-2284671765|
-|week2|DFS & BFS|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/20#issue-2284671765|
-|week3|이진탐색,스택과큐||
+|week1|그리디,구현|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/11|
+|week2|DFS & BFS|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/20|
+|week3|이진탐색,스택과큐|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/28|
 |week4|정렬||
 |week5|동적계획법,최단경로||
 |week6|그래프||
