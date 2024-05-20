@@ -16,9 +16,10 @@ while start <= end:
             count += 1
 
     if count >= c:
+        ans = distance
         start = distance + 1
 
     else:
         end = distance - 1
 
-print(distance)
+print(ans)
