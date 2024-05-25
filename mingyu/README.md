@@ -14,11 +14,11 @@ week7	트리
 
 개인적으로 푼 문제는 각 주차 폴더의 private폴더 속에 저장하였습니다.
 
-Python3 대략적인 N 범위에 대한 빅오 (1초 단위):
-N <= 500 인 경우 O(N^3)
-N <= 2000 인 경우 O(N^2)
-N < 100,000 인 경우 O(NlogN)
-N <= 10,000,000인 경우 O(N) 의 알고리즘으로 해결해야 한다.
+Python3 대략적인 N 범위에 대한 빅오 (1초 단위):   
+N <= 500 인 경우 O(N^3)   
+N <= 2000 인 경우 O(N^2)   
+N < 100,000 인 경우 O(NlogN)   
+N <= 10,000,000인 경우 O(N) 의 알고리즘으로 해결해야 한다.   
 
 
 학습 자료 : [동빈나, "이것이 취업을 위한 코딩테스트다"](https://www.youtube.com/watch?v=m-9pAwq1o3w&list=PLRx0vPvlEmdAghTr5mXQxGpHjWqSz0dgC&ab_channel=%EB%8F%99%EB%B9%88%EB%82%98)
