@@ -1,115 +1,46 @@
-import heapq
+from bisect import bisect_left
+
 N = int(input())
+solutions = list(map(int, input().split()))
+solutions.sort()
 
-posNum = []
-negNum = []
+zeroIdx = bisect_left(solutions, 0)         #zeroIdx 부터 배열의 마지막까지 양수
+#zeroIdx가 len(solutions)라면 배열의 모든 원소가 음수 -> 배열 맨 뒤 두개를 출력하면 됨
+#zeroIdx가 0이라면 배열의 가장 작은 원소가 양수 -> 배열 맨 앞 두개를 출력하면 됨
 
-for i in map(int, input().split()):
-    if i > 0:
-        heapq.heappush(posNum, i)
-    else:
-        heapq.heappush(negNum, i * -1)
+minPositiveSum = 2000000000
+minNegativeSum = 2000000000
 
-minPosSum = 99999999999999999999999
-minNegSum = 99999999999999999999999
-sameSignSUm = 999999999999999999999
-
-if len(posNum) >= 2:
-    minPosSum = posNum[0] + posNum[1]
-    if len(posNum) >= 3:
-        minPosSum = min(minPosSum, posNum[0] + posNum[2])
-
-if len(negNum) >= 2:
-    minNegSum = negNum[0] + negNum[1]
-    if len(negNum) >= 3:
-        minNegSum = min(minNegSum, negNum[0] + negNum[2])
-
-if minPosSum < minNegSum:
-    sameSignSum = minPosSum
-else:
-    sameSignSum = minNegSum
-
-min_heap = []
-
-findAnswer = False
-
-for i in negNum:
-    
-    if findAnswer:
-        break
-    if posNum:
-        start = 0
-        end = len(posNum) - 1
-        mid = (start + end) // 2
-    else:
-        mid = 0
-        break
-
-    while start <= end:
-
-        if posNum[mid] == i:
-            findAnswer = True
-            heapq.heappush(min_heap, (0, i * -1, i))
-            break
-
-        elif posNum[mid] < i:
-            start = mid + 1
-            mid = (start + end) // 2
-
-        else:
-            end = mid - 1
-            mid = (start + end) // 2
-    #print(start, end, mid)
-    #반복문 종료시, 0이되는 값을 찾은 게 아니라면 start가 end보다 1 큰 상태임
-    if mid < len(posNum) - 1:
-        heapq.heappush(min_heap, (abs(posNum[mid + 1] - i), i * -1, posNum[mid + 1]))
-    if mid > 0:
-        heapq.heappush(min_heap, (abs(posNum[mid - 1] - i), i * -1, posNum[mid - 1]))
-    if posNum:
-        heapq.heappush(min_heap, (abs(posNum[mid] - i), i * -1, posNum[mid]))
-#print(min_heap)
-
-
-if not posNum:
-    if len(negNum) >= 3:
-        if negNum[0] + negNum[1] > negNum[0] + negNum[2]:
-            print(negNum[2] * -1, negNum[0])
-        else:
-            print(negNum[1] * -1, negNum[0] * -1)
-    else:
-        print(negNum[1] * -1, negNum[0] * -1)
-        
-elif not negNum:
-    if len(posNum) >= 3:
-        if posNum[0] + posNum[1] > posNum[0] + posNum[2]:
-            print(posNum[0], posNum[2])
-        else:
-            print(posNum[0], posNum[1])
-    else:
-        print(posNum[0], posNum[1])
-        
-else:
-    answer = heapq.heappop(min_heap)
-    if answer[0] > sameSignSum:
-        if sameSignSum == minPosSum:
-            if len(posNum) >= 3:
-                if posNum[0] + posNum[1] > posNum[0] + posNum[2]:
-                    print(posNum[0], posNum[2])
-                else:
-                    print(posNum[0], posNum[1])
-            else:
-                print(posNum[0], posNum[1])
-        else:
-            if len(negNum) >= 3:
-                if negNum[0] + negNum[1] > negNum[0] + negNum[2]:
-                    print(negNum[2] * -1, negNum[0])
-                else:
-                    print(negNum[1] * -1, negNum[0] * -1)
-            else:
-                print(negNum[1] * -1, negNum[0] * -1)
-
-    else:
-        print(answer[1], answer[2])
-
+if zeroIdx < len(solutions) - 1 :       #0보다 큰 원소가 두 개 이상인 경우
+    minPositiveSum = solutions[zeroIdx] + solutions[zeroIdx + 1]        #가장 작은 양수 두개의 합
+if zeroIdx > 1:                         #0보다 작은 원소가 두 개 이상인 경우
+    minNegativeSum = (solutions[zeroIdx - 1] + solutions[zeroIdx - 2]) * -1     #가장 큰 음수 두개의 합
 
     
+#zeroIdx가 len(solutions)라면 배열의 모든 원소가 음수 -> 배열 맨 뒤 두개를 출력하면 됨
+#zeroIdx가 0이라면 배열의 가장 작은 원소가 양수 -> 배열 맨 앞 두개를 출력하면 됨
+if zeroIdx == 0:
+    print(solutions[0], solutions[1])
+elif zeroIdx == len(solutions):
+    print(solutions[-2], solutions[-1])
+    
+else:       #양수, 음수가 하나 이상씩 존재하는경우
+    tmpSum = 2000000000                 #양수와 음수의 합들 중 최소값을 저장할 변수
+    for i in range(zeroIdx):            #모든 음수에 대해 더해서 가장 0에 가까워지는 양수를 찾는다
+        target = solutions[i] * -1
+        targetIdx = bisect_left(solutions, target)
+        if targetIdx < len(solutions):
+            if abs(solutions[i] + solutions[targetIdx]) < tmpSum:
+                tmpSum = abs(solutions[i] + solutions[targetIdx])
+                tmpIdx = [i, targetIdx]
+        if targetIdx > zeroIdx:
+            if abs(solutions[i] + solutions[targetIdx - 1]) < tmpSum:
+                tmpSum = abs(solutions[i] + solutions[targetIdx - 1])
+                tmpIdx = [i, targetIdx - 1]
+
+    if minPositiveSum <= minNegativeSum and minPositiveSum <= tmpSum:
+        print(solutions[zeroIdx], solutions[zeroIdx + 1])
+    elif minNegativeSum <= minPositiveSum and minNegativeSum <= tmpSum:
+        print(solutions[zeroIdx - 2], solutions[zeroIdx - 1])
+    else:
+        print(solutions[tmpIdx[0]], solutions[tmpIdx[1]])
