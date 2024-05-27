@@ -1,0 +1,6 @@
+n = int(input())
+cards = list(map(int, input().split()))
+cards.sort()
+max3 = max(cards[-1] * cards[-2] * cards[-3], cards[0] * cards[1] * cards[-1])
+max2 = max(cards[-1] * cards[-2], cards[0] * cards[1])
+print(max(max3, max2))
