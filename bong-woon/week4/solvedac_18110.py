@@ -17,7 +17,7 @@ trim_lst = lst[trim:len(lst) - trim]
 
 tier = 0
 try:
-    tier = round_up(sum(lst[trim:len(lst) - trim]) / len(lst[trim:len(lst) - trim]))
+    tier = round_up(sum(trim_lst) / len(trim_lst))
 except ZeroDivisionError:
     pass
 print(tier)
