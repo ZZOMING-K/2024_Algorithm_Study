@@ -1,3 +1,10 @@
+
+#1. 목초지 N , 목초지 간 거리 계산 요청 개수인  Q 입력받기 
+#2. 그래프 생성할 때, 연결된 노드 간 길이도 같이 추가  
+#3. 큐 생성 > 현재 노드에서 갈 수 있으며 방문한적이 없는 노드 와 거리 (이전 거리 + 현재 거리) 추가
+#4. 만일 목적지에 왔을 경우 누적 거리 반환  
+
+
 from collections import deque
 
 N, Q = map(int, input().split())
@@ -10,7 +17,9 @@ for _ in range(N - 1):
     A, B, L = map(int, input().split()) #각 노드에 연결된 노드와 거리 추가 
     graph[A].append((B, L))
     graph[B].append((A, L))
-
+    
+print(graph)
+print(graph[1][0])
 
 def bfs(start, target):
 
