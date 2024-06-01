@@ -2,6 +2,11 @@
 
 </br>
 기초 개념부터 문제풀이까지 꾸준히 공부하기 위한 Python 알고리즘 스터디입니다. 
+
+</br>
+
+[NOTION_알고리즘스터디](https://www.notion.so/Algorithm-Coding-Test-Study-Page-d56afb85b6554970993bbf2dcd84ad71)
+
 </br>
 
 ## Rules 
@@ -44,10 +49,6 @@ ex) [2024-04-25] minkyeong week1
 * 사용한 라이브러리 정리 및 기타 (문제 풀이에 어려웠던 점, 구현하고자 했는데 실패한 방식)
 * readme 파일 생성 or txt 파일 생성 등 방식에 제한은 없습니다. 
 
-#### Comment 작성 (코드리뷰) | `의견제시` 
-* 잘했다고 생각되는 부분 
-* 이렇게 하면 더 좋을 것 같다고 생각되는 부분 
-* 왜 이렇게 풀었는지 궁금한 부분
 
 </br> 
 
