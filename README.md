@@ -1,11 +1,9 @@
 # ✍️Algorithm Study
 
 </br>
-기초 개념부터 문제풀이까지 꾸준히 공부하기 위한 Python 알고리즘 스터디입니다. 
+기초 개념부터 문제풀이까지 꾸준히 공부하기 위한 Python 알고리즘 스터디입니다.
 
-</br>
-
-[NOTION_알고리즘스터디](https://www.notion.so/Algorithm-Coding-Test-Study-Page-d56afb85b6554970993bbf2dcd84ad71)
+* [NOTION_알고리즘스터디](https://www.notion.so/Algorithm-Coding-Test-Study-Page-d56afb85b6554970993bbf2dcd84ad71)
 
 </br>
 
