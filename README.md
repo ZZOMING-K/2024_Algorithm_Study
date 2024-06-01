@@ -60,9 +60,10 @@ ex) [2024-04-25] minkyeong week1
 |week2|DFS & BFS|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/20|
 |week3|이진탐색,스택과큐|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/28|
 |week4|정렬||
-|week5|다이나믹프로그래밍||
-|week6|그래프||
-|week7|트리||
+|week5|다이나믹프로그래밍|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/50|
+|week6|최단경로 알고리즘||
+|week7|그래프||
+|week8|트리||
 
 추후 변경될 수 있습니다. 
 
