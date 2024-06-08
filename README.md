@@ -61,7 +61,7 @@ ex) [2024-04-25] minkyeong week1
 |week3|이진탐색,스택과큐|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/28|
 |week4|정렬||
 |week5|다이나믹프로그래밍|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/50|
-|week6|최단경로 알고리즘||
+|week6|최단경로 알고리즘|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/52|
 |week7|그래프||
 |week8|트리||
 
