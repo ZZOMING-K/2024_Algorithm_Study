@@ -8,7 +8,7 @@ graph = [[] for _ in range(v + 1)]
 distance = [INF] * (v + 1)
 
 for _ in range(e):
-	u, v, w = map(int, input().split())
+	u, v, w = map(int, input().split()) # 시작 노드, 도착 노드, 간선의 길이
 	graph[u].append((v, w))
 
 def dijkstra(start):
