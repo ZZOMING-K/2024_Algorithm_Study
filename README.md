@@ -62,7 +62,7 @@ ex) [2024-04-25] minkyeong week1
 |week4|정렬||
 |week5|다이나믹프로그래밍|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/50|
 |week6|최단경로 알고리즘|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/52|
-|week7|그래프||
+|week7|백트래킹||
 |week8|트리||
 
 추후 변경될 수 있습니다. 
