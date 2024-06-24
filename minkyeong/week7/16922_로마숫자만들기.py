@@ -5,7 +5,7 @@ N = int(input()) #사용할 수 있는 문자 개수 받아오기
 arr= [] 
 sum_res = [] 
 
-def recur(number , start) :
+def recur(start , number) :
     
     if number == N :
         sum_res.append(sum(arr))
@@ -17,5 +17,5 @@ def recur(number , start) :
         arr.pop()
 
 arr = []
-recur(0,1)
+recur(1,0)
 print(len(set(sum_res)))
