@@ -68,7 +68,7 @@ ex) [2024-04-25] minkyeong week1
 
 |주차|유형|문제|
 |------|---|---|
-|week8|완전탐색|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/11|
+|week8|완전탐색|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/66|
 
 추후 변경될 수 있습니다. 
 
