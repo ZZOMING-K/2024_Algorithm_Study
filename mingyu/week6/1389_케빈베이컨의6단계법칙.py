@@ -5,10 +5,6 @@ input = sys.stdin.readline
 
 N, M = map(int, input().split())
 
-From = []
-To = []
-MAX = 10001
-
 length = [{} for j in range(N + 1)] #입력값이 저장될 배열
 fix = [set() for i in range(N + 1)]
 
