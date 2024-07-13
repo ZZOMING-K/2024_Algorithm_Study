@@ -12,7 +12,7 @@
 [Lv2 프로세스 풀이](https://zzoming-25.tistory.com/82)
 
 ## 📌 도움받은 문제 
+### 주식가격
+[Lv2 다리를 지나는 트럭 풀이](https://zzoming-25.tistory.com/83)
 ### 다리를 지나는 트럭 
-[Lv2 다리를 지나는 트럭 풀이](https://zzoming-25.tistory.com/75)
-### 주식가격 
 해결 중 ... 
