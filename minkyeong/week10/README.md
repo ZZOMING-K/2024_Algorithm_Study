@@ -13,6 +13,6 @@
 
 ## 📌 도움받은 문제 
 ### 주식가격
-[Lv2 다리를 지나는 트럭 풀이](https://zzoming-25.tistory.com/83)
+[Lv2 주식가격 풀이](https://zzoming-25.tistory.com/83)
 ### 다리를 지나는 트럭 
 해결 중 ... 
