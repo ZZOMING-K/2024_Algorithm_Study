@@ -1,5 +1,0 @@
-First week
-
-Greedy Algorithm
-
-
