@@ -20,7 +20,6 @@ def solution(progresses, speeds):
             result.append(count)
             count = 1 #count 초기화 
             max_day = max(max_day , day_list[j])
-            #time += 1 #time 넘기기 
     result.append(count)
     
     return result 
