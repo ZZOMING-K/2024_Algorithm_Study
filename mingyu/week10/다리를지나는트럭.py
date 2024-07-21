@@ -1,25 +1,23 @@
-def solution(bridge_length, weight, truck_weights):
-    answer = 0
-    onbridge = [[0, 1]]
-    onbridgeweight = 0
+def solution(bridge_length, 최대하중, 남은트럭들의무게배열):
+    시간 = 0
+    다리위의트럭들 = [[0, 1]]
+    다리위트럭들의무게 = 0
     
-    while onbridge:
-        answer = answer + 1
+    while 다리위의트럭들:
+        시간 = 시간 + 1
         
                 
-        for i in range(len(onbridge)):
-            onbridge[i][1] = onbridge[i][1] - 1
+        for i in range(len(다리위의트럭들)):
+            다리위의트럭들[i][1] = 다리위의트럭들[i][1] - 1
 
-        if onbridge[0][1] == 0:
-                onbridgeweight = onbridgeweight - onbridge[0][0]
-                onbridge = onbridge[1:]
+        if 다리위의트럭들[0][1] == 0:
+                다리위트럭들의무게 = 다리위트럭들의무게 - 다리위의트럭들[0][0]
+                다리위의트럭들 = 다리위의트럭들[1:]
         
-        if truck_weights and weight >= truck_weights[0] + onbridgeweight:
-            onbridge.append([truck_weights[0], bridge_length])
-            onbridgeweight = onbridgeweight + truck_weights[0]
-            truck_weights = truck_weights[1:]
-
-        
-        #print(answer)
-        #print(onbridge)
-    return answer
+        if 남은트럭들의무게배열 and 최대하중 >= 남은트럭들의무게배열[0] + 다리위트럭들의무게:
+            다리위의트럭들.append([남은트럭들의무게배열[0], bridge_length])
+            다리위트럭들의무게 = 다리위트럭들의무게 + 남은트럭들의무게배열[0]
+            남은트럭들의무게배열 = 남은트럭들의무게배열[1:]
+        #print(시간)
+        #print(다리위의트럭들)
+    return 시간
