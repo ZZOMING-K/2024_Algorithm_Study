@@ -72,7 +72,8 @@ ex) [2024-04-25] minkyeong week1
 |week9|정렬|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/73|
 |week10|스택과큐|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/77|
 |week11|해시|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/85|
-|week12|DFS/BFS|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/90|
+|week12|복습|--|
+|week13|DFS/BFS|https://github.com/ZZOMING-K/2024_Algorithm_Study/issues/90|
 
 </br>
 
