@@ -32,5 +32,7 @@ def solution(clothes):
             sumNum = sumNum + subsum
         #print(i + 1, sumNum)
         answer = answer + sumNum
-        
+    
+
+    
     return answer
