@@ -15,3 +15,4 @@ def solution(priorities, location):
             priorities.append(priorities[0])
             priorities = priorities[1:]
                 
+                

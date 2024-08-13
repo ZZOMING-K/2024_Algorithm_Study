@@ -3,5 +3,8 @@ def solution(nums):
     pokemon = {}
     for i, num in enumerate(nums):
         pokemon[num] = pokemon.get(num, 0) + 1
-    print(pokemon)
+    if len(pokemon) >= len(nums)//2:
+        answer = len(nums)//2
+    else:
+        answer = len(pokemon)
     return answer
