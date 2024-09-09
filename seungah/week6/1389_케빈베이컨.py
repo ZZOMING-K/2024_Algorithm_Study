@@ -1,5 +1,5 @@
 N, M = map(int, input().split())
-graph = [[100] * N for _ in range(N)]  # 올바른 그래프 초기화
+graph = [[100] * N for _ in range(N)]  
 relation = []
 
 for i in range(N):

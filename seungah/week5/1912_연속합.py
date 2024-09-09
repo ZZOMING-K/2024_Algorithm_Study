@@ -1,18 +1,4 @@
-'''N = int(input())
-arr = list(map(int, input().split()))
-sum = 0
-totalsum = []
-for i in arr:
-    if i > -1:
-        sum += i
-    else:
-        totalsum.append(sum)
-        sum = 0
 
-print(max(totalsum))
-
-이후 카데인 알고리즘 발견
-'''
 N = int(input())
 arr = list(map(int, input().split()))
 
