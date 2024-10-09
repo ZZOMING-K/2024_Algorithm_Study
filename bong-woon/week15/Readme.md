@@ -70,7 +70,7 @@
 ---
 ### [15주차] 처음 써본 함수 및 라이브러리
 
-##### `import spring`
+##### `import string`
 ```python
 import string
 
