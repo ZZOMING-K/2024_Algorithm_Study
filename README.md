@@ -1,4 +1,4 @@
-# ✍️Algorithm Study
+# ✍️Algorithm Study (종료)
 
 </br>
 기초 개념부터 문제풀이까지 꾸준히 공부하기 위한 Python 알고리즘 스터디입니다.
